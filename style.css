@@ -17,3 +17,21 @@ section {
 #gallery .row > *{
   padding: 0;
 }
+
+@media (min-width: 992px) {
+  .nav-link {
+      text-transform: uppercase;
+      margin-right: 10px;
+      font-size: 15px;
+    }
+  
+    .nav-link:hover::after {
+      content: '';
+      display: block;
+      border-bottom: 3px solid white;
+      width: 50%;
+      margin: auto;
+      padding-bottom: 5px;
+      margin-bottom: -8px;
+    }
+}
